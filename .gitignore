@@ -1,8 +1,40 @@
 
-# Created by https://www.gitignore.io/api/cpp,macos,linux,windows,vim
-# Edit at https://www.gitignore.io/?templates=cpp,macos,linux,windows,vim
+# Created by https://www.gitignore.io/api/c++,vscode,macos,linux,windows,vim
+# Edit at https://www.gitignore.io/?templates=c++,vscode,macos,linux,windows,vim
 
-#!! ERROR: cpp is undefined. Use list command to see defined gitignore types !!#
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
 
 ### Linux ###
 *~
@@ -65,6 +97,8 @@ tags
 # Persistent undo
 [._]*.un~
 
+#!! ERROR: vscode is undefined. Use list command to see defined gitignore types !!#
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -90,4 +124,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/cpp,macos,linux,windows,vim
+# End of https://www.gitignore.io/api/c++,vscode,macos,linux,windows,vim
