@@ -20,7 +20,7 @@
 
 /*****Version Definition*****/
 #define YAMAX_VER "7.0"
-#define FIRMWARE_VER 7.0-uno"
+#define FIRMWARE_VER "7.0-uno"
 
 #if defined(ARDUINO_AVR_UNO) || defined(ESP8266) // AX-01 or something nice
 #define S_STABLE
@@ -44,8 +44,6 @@ void setup() {
 }
 
 /*****Waiting Loop*****/
-void loop() {
-  Reficere(1);
-}
+void loop() { Reficere(1); }
 
 /*****That's all. Enjoy!*****/
