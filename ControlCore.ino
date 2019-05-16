@@ -1,8 +1,7 @@
 /*************************************
-  ControlCore - YamaX Arduino Core v3.0
-  Provides servo controlling feature
-  made by Nyanyan & coord.e, Y-modify
-  Copyright © 2017 Y-modify All Rights Reserved.
+  Reficere system for YamaX 7.0 or any robot
+  made by Y-modify, Nyanyan & coord.e
+  Copyright © 2016-2019 Y-modify All Rights Reserved.
 *************************************/
 
 #include <IcsSoftSerialClass.h>
